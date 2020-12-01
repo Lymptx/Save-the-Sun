@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2582244879426802978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2582244879426802980}
+  - component: {fileID: 2582244879426802981}
+  m_Layer: 0
+  m_Name: Audio_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2582244879426802980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582244879426802978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2582244879426802981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582244879426802978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c53afc7229d05a4cb3faf29c578c79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 06389c2de52993540b335135fafb9c26, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: f29c40933ab6f774bbe340ffd1e68768, type: 3}
+    group: {fileID: 24300002, guid: b72ae9b583c45254e9deb9a945903319, type: 2}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: LaserOn
+    clip: {fileID: 8300000, guid: 9afea0ea74082f0499a3ede1c80533f0, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: LaserOff
+    clip: {fileID: 8300000, guid: 88a43cc9392ce9c40a052dc56c3a6e67, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Switch
+    clip: {fileID: 8300000, guid: dbc9461916bac7b40bd7b5934f707a1f, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: b112afe8d464059478c40144809e210d, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: DoorClose
+    clip: {fileID: 8300000, guid: 3f4428dd2130c5a42be327e453a3d423, type: 3}
+    group: {fileID: 24300002, guid: 964ab64932eb9634d9759fb0cdda6d9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
